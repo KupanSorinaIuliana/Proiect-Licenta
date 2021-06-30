@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Consilier Auto</string>
+    <string name="compareTxt">Compară caroseriile</string>
+    <string name="home">Meniul principal</string>
+    <string name="descriereTxt">Descrierea caroseriilor</string>
+    <string name="masinaTxt">Sugestii de mașini</string>
+    <string name="caroserieTxt">Află ce caroserii ți se potrivesc</string>
+    <string name="descriereMarca">Descrierea mărcilor</string>
+    <string name="txtEnumerareCaroserii">Acestea sunt caroseriile între care ar fi indicat să alegeți:</string>
+    <string name="nume">Nume</string>
+    <string name="prenume">Prenume</string>
+    <string name="varsta">Vârsta</string>
+    <string name="parola">Parola</string>
+    <string name="reg">Înregistrează-te</string>
+    <string name="log">Loghează-te</string>
+    <string name="mesLogin">Nu ai cont? Înregistrează-te acum.</string>
+    <string name="mesRegister">Ai deja un cont? Loghează-te.</string>
+    <string name="confParola">Confirmă parola</string>
+    <string name="faraCont">Continuă fără cont</string>
+    <string name="schimbaParola">Ați uitat parola?</string>
+    <string name="desc1">Scurtă descriere</string>
+    <string name="desc2">Argumente Pro</string>
+    <string name="desc3">Argumente Contra</string>
+    <string name="acc">Detalii cont</string>
+    <string name="schimba">Schimbați parola</string>
+    <string name="txtSchimba">Schimbă</string>
+    <string name="txtConfirma">Confirmă parola nouă</string>
+    <string name="txtParola">Parola nouă</string>
+    <string name="txtParolaNoua">Introdu parola nouă</string>
+    <string name="txtParolaInitiala">Parola veche</string>
+    <string name="primaCaroserie">Prima caroserie</string>
+    <string name="adouaCaroserie">A doua caroserie</string>
+    <string name="compara">Compară</string>
+    <string name="titlu">Alege două caroserii</string>
+    <string name="after">Vrei să afli și alte detalii pe lângă caroserie?</string>
+    <string name="afla">Află mai multe</string>
+    <string name="procente">Procentele tale sunt:</string>
+    <string name="statistici">Statisticile mele</string>
+    <string name="statisticiGenerale">Statistici generale</string>
+    <string name="help">Ajutor</string>
+    <string name="logout">Deconectare</string>
+    <string name="myCars">Mașinile mele</string>
+    <string name="remember">Ține-mă minte</string>
+
+    <string name="error_message_name">Introdu numele</string>
+    <string name="error_message_username">Introdu username-ul</string>
+    <string name="error_message_email">Introdu o adresă de e-mail validă</string>
+    <string name="error_message_password">Introdu parola</string>
+    <string name="success_message">Înregistrarea s-a realizat cu succes</string>
+    <string name="error_email_exists">Acest e-mail deja există</string>
+    <string name="error_password_match">Parolele nu se potrivesc</string>
+    <string name="error_valid_email_password">E-mail sau parolă greșită</string>
+    <string name="error_message_age">Introdu vârsta</string>
+
+    <string-array name="intrebari" >
+        <item>Se dorește realizarea achiziționării pentru persoană fizică sau firmă?</item>
+        <item>Care este utilizarea preponderentă a mașinii?</item>
+        <item>Aveți copii?</item>
+        <item>Mașina va fi folosită și pentru concedii sau drumeții?</item>
+        <item>Sex:</item>
+        <item>Care este experiența dumneavoastră la volan?</item>
+        <item>Mașina va fi mașina principală sau secundară?</item>
+    </string-array>
+    <!--    Raspunsuri caroserii-->
+        <string-array name="firma">
+            <item>firmă</item>
+            <item>persoană fizică</item>
+        </string-array>
+        <string-array name="utilizare">
+            <item>urban</item>
+            <item>extraurban</item>
+            <item>mixt</item>
+        </string-array>
+        <string-array name="copii">
+            <item>fără</item>
+            <item>2 copii</item>
+            <item>mai mulți</item>
+        </string-array>
+        <string-array name="concediu">
+            <item>Da</item>
+            <item>Nu</item>
+        </string-array>
+        <string-array name="sex">
+            <item>feminin</item>
+            <item>masculin</item>
+        </string-array>
+        <string-array name="experienta">
+            <item>începător</item>
+            <item>mediu</item>
+            <item>avansat</item>
+        </string-array>
+        <string-array name="principala">
+            <item>principală</item>
+            <item>secundară</item>
+        </string-array>
+    <string name="helpTitle">Cum te putem ajuta?</string>
+    <string name="helpAccount">Cum îmi schimb datele contului?</string>
+    <string name="helpPassword">Cum îmi schimb parola?</string>
+    <string name="helpNewAccount">Cum îmi creez un cont?</string>
+    <string name="helpDescriere">Ajutor cu opțiunile de descriere</string>
+    <string name="helpFiltrare">Ajutor cu opțiunile de filtrare</string>
+    <string name="helpComparare">Ajutor cu opțiunea de comparație</string>
+    <string name="forgotPass">Mi-am uitat parola, ce ar trebui să fac?</string>
+
+    <string-array name="accountHelpDescription">
+        <item>1. În orice interfață te afli, poți acționa click pe iconița din stânga sus.</item>
+        <item>2. Click pe iconița cu textul: detalii cont.</item>
+        <item>3. Click pe iconița în formă de creion pentru modificări ale datelor.</item>
+    </string-array>
+
+    <string-array name="passwordHelpDescription">
+        <item>1. În orice interfață te afli, poți acționa click pe iconița din stânga sus.</item>
+        <item>2. Click pe iconița cu textul: detalii cont.</item>
+        <item>3. Click pe textul: \"Schimbă parola\"</item>
+        <item>4. Completează spațiile și apasă pe \"Schimbă parola\"</item>
+    </string-array>
+
+    <string-array name="createAccountHelp">
+        <item>1. În pagina de autentificare, faceți click pe textul: \"No account yet? Create one.\"</item>
+        <item>2. In the registration page, fill in the fields and click on the \"Register\" button.</item>
+    </string-array>
+    <string-array name="fpassHelp">
+        <item>1. Accesați pagina de login.</item>
+        <item>2. Faceți click pe \ "Ați uitat parola? \".</item>
+    </string-array>
+    <string-array name="descHelp">
+        <item>1. Aveți 2 opțiuni de descriere, le puteți identifica prin această pictogramă:</item>
+        <item>2. Dacă faceți click pe una dintre opțiunile de descriere, veți fi redirecționat către o pagină care conține o listă a mărcilor sau a caroseriilor.</item>
+    </string-array>
+    <string-array name="filterHelp">
+        <item>1. Aveți 2 opțiuni de filtrare, care pot fi identificate prin această pictogramă:</item>
+        <item>2. Dacă faceți click pe unul dintre ele, veți fi redirecționat către o pagină care conține un test pentru filtrarea mașinilor sau a caroseriilor.</item>
+    </string-array>
+    <string-array name="compareHelp">
+        <item>1. Opțiunea de comparație poate fi identificată prin această pictogramă:</item>
+        <item>2. Când faceți click pe aceasta, veți fi redirecționat către o pagină care vă va spune să alegeți cele 2 caroserii pe care doriți să le comparați.</item>
+    </string-array>
+
+    <string name="intrebare1Masina">Alege caroseria pentru care dorești să afli modelele:</string>
+    <string-array name="intrebariMasini">
+        <item>Care este bugetul dumneavoastră?</item>
+        <item>Ce tip de combustibil preferați?</item>
+    </string-array>
+
+    <string-array name="bugetAchizitie">
+        <item>mai puțin de 5000€</item>
+        <item>între 5000€ și 10000€</item>
+        <item>mai mult de 10000€</item>
+        <item>nouă</item>
+    </string-array>
+    <string-array name="combustibil">
+        <item>benzină</item>
+        <item>diesel</item>
+        <item>electrică</item>
+        <item>hibridă</item>
+    </string-array>
+
+    <!-- detalii masini-->
+    <string name="caroserieDetalii">Caroseria</string>
+    <string name="marcaDetalii">Marca</string>
+    <string name="anulDetalii">Anul</string>
+    <string name="caiPutereDetalii">Cai putere</string>
+    <string name="capCilindricaDetalii">Capacitate cilindrică</string>
+    <string name="alimentareaDetalii">Combustibil</string>
+    <string name="intervalPretDetalii">Interval preț</string>
+    <string name="saveDetalii">Salvează această mașină</string>
+    <string name="deleteDetalii">Șterge această mașină</string>
+    <string name="modeleTxt">Modele salvate</string>
+
+    <string name="chartPopularitate">Popularitatea caroseriilor</string>
+    <string name="chartComparatie">Procente caroserii</string>
+
+    <!--- informatii caroserii-->
+<string-array name="descrieri">
+        <item name="compact">• Mașina compactă, identificată ca o mașină mică în Europa, se încadrează între vehiculele mijlocii și cele subcompacte. De obicei, Honda Civic, Hyundai Elantra, Chrysler PT Cruiser și Audi A3 se încadrează în categoria compactă. Compactul poate fi un model hatchback, cu două și patru uși și un compact sport. În general, acestea sunt echipate din fabrică cu un motor cu patru cilindri.
+            \n• Compactul a fost disponibil într-o anumită formă de la înființarea automobilului, dar pe măsură ce mașinile au crescut, compactul a debutat oficial cu Nash Rambler din 1950, care stătea pe un ampatament de 254 de centimetric.
+            \n• Autovehiculele mici sau compacte au între 100-109 metri cubi de volum combinat de pasageri și mărfuri și au o lungime cuprinsă între 409 și 475 de centimetric.</item>
+        <item name="sedan">• Sedanul este un tip de automobil cu caroseria de tip închis, cu 2 sau 4 uși, cu câte 2 geamuri laterale pe fiecare parte, amenajat pentru patru sau mai mulți pasageri.
+            \n• Principalul său scop este transportul de persoane pe drumuri normale.
+            \n• Sedanul este unul dintre cele mai întâlnite tipuri de caroserie ale automobilelor din zilele noastre.</item>
+        <item name="hatchback">• Are 2 sau 4 uși.
+\n• Cuvântul hatchback este un neologism provenit din limba engleză, unde hatch înseamnă trapă și back înseamna spate.
+\n• Acestui tip de caroserie i se mai spune și caroserie cu două volume, unul din volume fiind compartimentul motorului și al doilea compartimentul pasagerilor contopit cu portbagajul.
+\n• De regulă, trapa din spate are balamalele la extremitatea superioară, iar spătarele rândului de scaune din spate pot fi rabatate pentru a mări spațiul de încărcare.</item>
+        <item name="coupe">• Are 2 uși, dar modele mai recente de coupe au și 4.
+\n• În general sunt prevăzute pentru două persoane, locurile din spate fiind mai incomode pentru adulți, dar pentru anumite situații sunt perfecte pentru copii.
+\n• Termenul coupe vine de la traducerea în franceză a lui \"cut\".</item>
+        <item name="stationWagon">• Are 4 uși, este un tip de caroserie potrivită pentru concedii.
+\n• Recomandată pentru familii cu 2 copii.
+\n• Sunt derivate din tipul de caroserie sedan.
+\n• Oferă un loc de depozitare mare a bagajelor prin pliarea scaunelor din spate.</item>
+        <item name="roadster">• Are 2 uși, este o caroserie de tipul spider.
+\n• Numărul de locuri sunt 2, unul pentru șofer și unul pentru alt pasager.
+\n• Nu prezintă acoperiș.</item>
+        <item name="cabriolet">• I se mai spune drop-head coupe.
+\n• Poate fi transformată într-o mașină deschisă datorită acoperișului retractabil.
+\n• Numărul de uși este 2, cu 4 locuri disponibile pentru pasageri prin plierea scaunelor din față.
+\n• Pot fi folosite atât în medii urbane, cât și în medii extraurbane.</item>
+        <item name="muscleCar">• În Statele Unite li se spuneau Supercars.
+\n• Poate fi transformată într-o mașină deschisă datorită acoperișului retractabil.
+\n• Numărul de uși este 2, cu locuri disponibile atât pentru șofer cât și pentru încă 2 pasageri, 3 dacă nu se ține cont de comoditate.
+\n• Pot fi folosite atât în medii urbane, cât și în medii extraurbane.</item>
+        <item name="sportCar">• Caroserie de tip sport car a luat naștere în Europa.
+\n• Datorită designului său oferă o performanță dinamică.
+\n• Numărul de uși este 2, în mod normal aceste mașini sunt pentru 2 persoane, dar modele mai noi prezintă încă 2 locuri cu mai puțină comoditate.
+\n• Pot fi folosite atât în medii urbane, cât și în medii extraurbane.</item>
+        <item name="suv">• SUV vine de la sport utility vehicle.
+\n• Este specific pentru familii cu 2 copii.
+\n• Numărul de uși este 4, cu 5 locuri disponibile.
+\n• Sunt specifice mediului extraurban.</item>
+        <item name="suvCompact">• SUV vine de la sport utility vehicle.
+\n• SUV compact este un tip de caroserie SUV mai mică.
+\n• Este specifică pentru familii cu 2 copii.
+\n• Numărul de uși este 2 sau 4, cu 5 locuri disponibile.
+\n• Loc de depozitare a bagajelor mai mic decât la SUV-ul normal.
+\n• Sunt specifice mediului extraurban.</item>
+        <item name="pickup">• De obicei o derivare dintr-un sedan sau un SUV.
+\n• Loc mare de depozitare a materialelor sau a bagajelor în partea din spate, fără acoperiș.
+\n• Numărul de uși este 2 sau 4, cu 5 locuri disponibile.
+\n• Specifică mediului extraurban și firmelor de construcții care necesită loc de depozitare a anumitor materiale.</item>
+        <item name="miniVan">• Numărul de rânduri pentru pasageri este 3.
+\n• Loc mare de depozitare a materialelor sau a bagajelor.
+\n• Numărul de locuri disponibile este 7-8.
+\n• Specifică mediului extraurban, dar și urban pentru familiile mai numeroase.</item>
+        <item name="van">• Este de obicei folosită pentru transportarea persoanelor sau a mărfurilor.
+\n• În cele mai multe cazuri nu are geamuri în partea din spate.
+\n• Loc mare de depozitare a materialelor sau a bagajelor.
+\n• Numărul de locuri disponibile este 2-3 pentru van-urile folosite în scopuri de transport a mărfurilor sau peste 8 în scopul de transport al persoanelor.
+\n• Specifică mediului extraurban.</item>
+    </string-array>
+    <string-array name="pro">
+        <item name="compact">• Autonomie  ridicată comparativ cu  vehiculele de dimensiuni mai mari.
+\n• Adesea costă mai puțin decât vehiculele mai mari.
+\n• Mai ușor de parcat și de manevrat.
+\n• Oferă o experiență de conducere distractivă și diferită.
+\n• Popularitate pentru revânzare.
+\n• Uneori sunt mai fiabile, deoarece sunt mai de bază și sunt utilizate mai ales la nivel Mondial.</item>
+        <item name="sedan">• Sedanurile sunt mai stabile la viteze mari.
+\n• Oferă mai multă intimitate (geamuri mici, nu se poate vedea înăuntru).
+\n• Portbagaj mare (în comparație cu hatchback-ul).
+\n• Are 4 uși, deci fiecare pasager poate intra direct la scaunul lui.
+</item>
+        <item name="hatchback">• Este potrivită pentru oraș.
+\n• Se poate manevra ușor în parcări, întoarceri.
+\n• Este ușor de condus pentru începători.
+\n• Oferă o autonomie mai bună.
+</item>
+        <item name="coupe">• Este potrivită pentru oraș.
+\n• Este ușor de condus pentru orice tip de șofer, din punct de vedere al experienței.
+\n• O parte din acoperiș este retractabilă.
+</item>
+        <item name="stationWagon">• Este potrivită pentru concedii.
+\n• Este ușor de condus atât pentru șoferii cu experiență medie sau avansată.
+\n• Spațiu mare de depozitare a bagajelor.
+\n• Economie de combustibil datorită greutății scăzute.
+</item>
+        <item name="roadster">• Libertatea.
+\n• Vizibilitate mai bună decât la mașinile normale datorită lipsei părții de deasupra și din laterale a carosabilului.
+</item>
+        <item name="cabriolet">• Libertatea, dar și posibilitatea închiderii acoperișului în caz de ploaie.
+\n• Vizibilitate mai bună decât la mașinile normale datorită posibilității de retractare a acoperișului.
+\n• Se pot folosi în orice mediu.
+</item>
+        <item name="muscleCar">• Libertatea oferită de acoperișul retractabil.
+\n• Se pot folosi în orice mediu.
+</item>
+        <item name="sportCar">• Performanță dinamică.
+\n• Se pot folosi în orice mediu.
+</item>
+        <item name="suv">• Potrivit pentru concedii, dar și pentru firme.
+\n• Spațiu mare de depozitare a bagajelor.
+\n• Tracțiune 4x4, mai exact pentru mediul Off-road.
+</item>
+        <item name="suvCompact">• Poziție înaltă de așezare a scaunelor.
+\n• Siguranță mare în caz de accident datorită dimensiunii caroseriei.
+\n• Tracțiune 4x4, mai exact pentru mediul Off-road.</item>
+        <item name="pickup">• Abilitățile de off-road sunt mai bune.
+\n• Spațiu mare de depozitare a bagajelor sau a materialelor.
+\n• Mai multă putere pentru remorcare și transport.
+\n• Tracțiune 4x4, mai exact pentru mediul Off-road.</item>
+        <item name="miniVan">• Potrivit pentru concedii cu familia.
+\n• Spațiu mare de depozitare a bagajelor.
+\n• Multe scaune disponibile.
+\n• Siguranță mare în caz de accident datorită dimensiunii caroseriei.</item>
+        <item name="van">• Potrivit pentru firme de transport a persoanelor sau pentru firme de construcții.
+\n• Spațiu mare de depozitare a bagajelor sau a materialelor.
+\n• Numărul de scaune poate fi cât de mare se dorește.
+\n• Siguranță mare în caz de accident datorită dimensiunii caroseriei.</item>
+    </string-array>
+    <string-array name="contra">
+        <item name="compact">• Putere mai mică, astfel încât să poată obține mai mult timp pentru a ajunge la viteze mai mari și va fi mai lent, urcând dealuri mari și teren accidentat.
+\n• Poate să nu ofere o călătorie la fel de lină ca și mașinile mai mari la drumuri lungi.
+\n• Poate fi mai periculos dacă este implicat în accidente auto.
+\n• Mai puțin spațiu pentru șoferi, pasageri și mărfuri.
+\n• S-ar putea să vă simțiți conștient de modul în care arătați într-un vehicul mic, mai ales când mașinile mai mari trec pe lângă voi.
+\n• Nu se preteaza ca masina de familie sau vacante.</item>
+        <item name="sedan">• Nu este recomandat pentru călătorii.
+\n• Geamuri mici.
+\n• Are un portbagaj mare în comparație cu hatchback-ul, însă în comparație cu un suv este destul de mic.
+</item>
+        <item name="hatchback">• Portbagaj mic.
+\n• Nu este potrivit pentru mai mult de 2 persoane.
+\n• Portbagajul și locul pasagerilor sunt împreună, oferind o posibilitate ușoară de furt doar prin spargerea unui geam.
+</item>
+        <item name="coupe">• Nu este potrivit pentru familii.
+\n• În momentul în care soarele dispare, acoperișul care se desface nu mai este așa practic.
+</item>
+        <item name="stationWagon">• Nu este potrivit pentru șoferii începători.
+\n• Forma rectangulară este mai puțin dinamică.
+</item>
+        <item name="roadster">• Nu este potrivit pentru zile ploioase.
+\n• Există locuri doar pentru șofer și un alt pasager.
+\n• Siguranță scăzută când vine vorba de depozitarea bagajelor în această mașină.
+\n• Interiorul mașinii se va murdări mult mai rapid.
+</item>
+        <item name="cabriolet">• Nu este potrivit pentru familii.
+\n• Loc mic de depozitare a bagajelor.
+</item>
+        <item name="muscleCar">• Nu este potrivit pentru familii.
+\n• Loc mic de depozitare a bagajelor.
+</item>
+        <item name="sportCar">• Nu este potrivit pentru familii.
+\n• Loc mic de depozitare a bagajelor.
+</item>
+        <item name="suv">• Nu este potrivit pentru începători.
+\n• Greu de manevrat în spații strâmte sau orașe.
+</item>
+        <item name="suvCompact">• Nu este potrivit pentru începători.
+\n• Spațiu de depozitare a bagajelor mai mic decât la SUV-ul normal.
+        </item>
+        <item name="pickup">• Nu este potrivit pentru începători.
+\n• Greu de manevrat în spații strâmte sau orașe.
+\n• Puține modele dintre care vei putea alege.</item>
+        <item name="miniVan">• Nu este potrivit pentru începători.
+\n• Greu de manevrat în spații strâmte sau orașe.
+\n• Nu sunt așa eficiente în zăpadă sau zone off-road.
+</item>
+        <item name="van">• Nu este potrivit pentru începători.
+\n• Greu de manevrat în spații strâmte sau orașe.
+\n• Putere mică de tragere.</item>
+    </string-array>
+    <string-array name="istoricMarci">
+        <item name="volkswagen">- a fost fondată în 1937;
+            \n\n- fondatori: Adolf Hitler, Karl Benz, Ferdinand Porsche și Robert Ley în 1938; Ivan Hirst și Heinz Nordhoff în 1948;
+            \n\n- are sediul în Wolfsburg, Germania;
+            \n\n- deviza companiei este: \"Din dragoste pentru automobil\";
+            \n\n- aparține concernului Volkswagen Group.
+             </item>
+        <item name="skoda">- a fost fondată în 1895 ca \"Laurin &amp; Klement\"
+            \n\n- fondatori: Václav Laurin și Václav Klement;
+            \n\n- are sediul în Mladá Boleslav, Republica Cehă;
+            \n\n- sloganul companiei este: \"Simply Clever\";
+            \n\n- din 1991 aparține concernului Volkswagen Group.</item>
+        <item name="audi">- a fost fondată în 1909 în 	Zwickau;
+            \n\n- fondatori: August Horch;
+            \n\n- are sediul în Ingolstadt, Germania;
+            \n\n- sloganul companiei este: \"Progres prin Tehnologie\";
+            \n\n- aparține concernului Volkswagen Group.</item>
+        <item name="seat">- a fost fondată în 9 mai 1950;
+            \n\n- fondatori: Instituto Nacional de Industria;
+            \n\n- are sediul în Martorell, Spania;
+            \n\n- sloganul companiei este: \"Auto emocion\";
+            \n\n- aparține concernului Volkswagen Group.</item>
+        <item name="peugeot">- a fost fondată în 1810;
+            \n\n- are sediul în Poissy, Franța;
+            \n\n- sloganul companiei este: \"Peugeot. Proiectat să placă\";
+            \n\n- aparține grupului PSA Peugeot Citroën.</item>
+        <item name="citroen">- a fost fondată în 1919;
+            \n\n- fondator: André Citroën;
+            \n\n- are sediul în Paris, Franța;
+            \n\n- sloganul companiei este: \"Inspired by you\";
+            \n\n- aparține grupului PSA Peugeot Citroën.</item>
+        <item name="opel">- a fost fondată în 21 ianuarie 1862;
+            \n\n- fondator: Adam Opel;
+            \n\n- are sediul în Rüsselsheim, Germania;
+            \n\n- sloganul companiei este: \"Viitorul aparține tuturor\";
+            \n\n- aparține grupului PSA Peugeot Citroën.</item>
+        <item name="renault">- a fost fondată în 24 decembrie 1898;
+            \n\n- fondatori: Louis Renault, Marcel Renault, Fernand Renault;
+            \n\n- are sediul în Tōkyō, Japonia;
+            \n\n- sloganul companiei este: \"Creator de automobile\";
+            \n\n- aparține grupului Renault.</item>
+        <item name="dacia">- a fost fondată în 1966;
+            \n\n- are sediul în Mioveni, România;
+            \n\n- aparține grupului Renault.</item>
+        <item name="hyundai">- a fost fondată în 29 decembrie 1967;
+            \n\n- fondator: Chung Ju-yung;
+            \n\n- are sediul în Seul, Coreea de Sud;
+            \n\n- sloganul companiei este: \"Gândire nouă, posibilități noi\";
+            \n\n- aparține grupului  Hyundai Motor.</item>
+        <item name="kia">- a fost fondată în 1944;
+            \n\n- are sediul în Seul, Coreea de Sud;
+            \n\n- sloganul companiei este: \"Mișcarea care inspiră\";
+            \n\n- aparține grupului  Hyundai Motor.</item>
+        <item name="bmw">- a fost fondată în 7 martie 1916;
+            \n\n- fondatori: Franz Josef Popp, Karl Rapp, Camillo Castiglioni;
+            \n\n- are sediul în München, Germania;
+            \n\n- sloganul companiei este: \"Plăcerea de a conduce\";</item>
+        <item name="fiat">- a fost fondată în 11 Iulie 1899;
+            \n\n- fondator: Giovanni Agnelli;
+            \n\n- are sediul în Torino, Italia;
+            \n\n- proprietar: Fiat Chrysler Automobiles.</item>
+        <item name="toyota">- a fost fondată în 1937;
+            \n\n- fondator: Kiichiro Toyoda;
+            \n\n- are sediul în Toyota, Japonia;
+            \n\n- sloganul companiei este: \"Mergând înainte\";
+            \n\n- proprietar: Toyota Motor Corporation.</item>
+        <item name="mercedes">- a fost fondată în 1881;
+            \n\n- fondatori: Gottlieb Daimler, Karl Benz;
+            \n\n- este o marcă germană;
+            \n\n- sloganul companiei este: \"Cel mai bun sau nimic\";
+            \n\n- proprietar: DaimlerChrysler AG.</item>
+        <item name="ford">- a fost fondată în 17 iunie 1903;
+            \n\n- fondator: Henry Ford;
+            \n\n- are sediul în Dearborn, SUA;
+            \n\n- sloganul companiei este: \"Mergi mai departe\";
+            \n\n- proprietar: Ford Motor Company.</item>
+        <item name="suzuki">- a fost fondată în 1909;
+            \n\n- fondator: Michio Suzuki;
+            \n\n- are sediul în Hamamatsu, Shizuoka, Japonia;
+            \n\n- sloganul companiei este: \"Mod de viață\";
+            \n\n- proprietar: Suzuki Motor Corporation.</item>
+        <item name="mazda">- a fost fondată în 1909;
+            \n\n- fondator: Michio Suzuki;
+            \n\n- are sediul în Hamamatsu, Shizuoka, Japonia;
+            \n\n- sloganul companiei este: \"Mod de viață\";
+            \n\n- proprietar: Suzuki Motor Corporation.</item>
+        <item name="nissan">- a fost fondată în 26 decembrie 1933;
+            \n\n- fondatori: Masujiro Hashimoto, Kenjiro Den, Rokuro Aoyama, Meitaro Takeuchi, Yoshisuke Aikawa, William R. Gorham;
+            \n\n- are sediul în Yokohama, Japonia;
+            \n\n- sloganul companiei este: \"Inovație pentru toți\";
+            \n\n- aparține grupului Nissan.</item>
+        <item name="cooper">- a fost fondată în 1959;
+            \n\n- fondator: BMW;
+            \n\n- are sediul în Cowley, Oxford, Anglia;
+            \n\n- este o mașină de oraș sportivă;</item>
+        <item name="volvo">- a fost fondată în 1927;
+            \n\n- fondator: SKF;
+            \n\n- are sediul în Göteborg, Suedia;
+            \n\n- sloganul companiei este: \"Pe viaţă\";
+            \n\n- aparține grupului chinez Geely.</item>
+        <item name="jaguar">- a fost fondată în 11 septembrie 1922 ca Swallow Sidecar Company;
+            \n\n- numele a fost preschimbat în Jaguar în 1945;
+            \n\n- fondatori: William Lyons și William Walmsley;
+            \n\n- are sediul în Coventry, Regatul Unit;
+            \n\n- deținută de: Tata Motors Ltd.</item>
+        <item name="alfa">- a fost fondată în 1910;
+            \n\n- fondator: Cavalier Ugo Stella;
+            \n\n- are sediul în Provincia Torino;
+            \n\n- sloganul companiei este: \"Mecanica emoției.\";
+            \n\n- proprietar: Fiat Group Automobiles S.p.A.</item>
+        <item name="infiniti">- a fost fondată în 1989;
+            \n\n- are sediul în Hong Kong;
+            \n\n- sloganul companiei este: \"Împuterniciți condusul\";
+            \n\n- aparține concernului Renault-Nissan.</item>
+        <item name="chevrolet">- a fost fondată în 1911;
+            \n\n- fondatori: Arthur Chevrolet, Louis Chevrolet, William C. Durant;
+            \n\n- are sediul în Detroit, Michigan, U.S.;
+            \n\n- sloganul companiei este: \"Găsește drumuri noi.\";
+            \n\n- proprietar: General Motors.</item>
+        <item name="porsche">- a fost fondată în 1948;
+            \n\n- fondator: Ferdinand Porsche;
+            \n\n- are sediul în  Stuttgart, Baden-Württemberg;
+            \n\n- sloganul companiei este: \"Nu există înlocuitor.\".</item>
+        <item name="mitsubishi">- a fost fondată în 1917;
+            \n\n- fondator: Iwasaki Yatarō;
+            \n\n- are sediul în Tōkyō, Japonia;
+            \n\n- sloganul companiei este: \"Conduce-ți ambiția\".</item>
+        <item name="jeep">- a fost fondată în 1940;
+            \n\n- fondator: Chrysler Group LLC;
+            \n\n- are sediul în Toledo, Ohio, SUA;
+            \n\n- sloganul companiei este: \"Este doar unul\".</item>
+        <item name="landrover">- a fost fondată în 1948;
+            \n\n- fondator: Jaguar Land Rover;
+            \n\n- are sediul în Coventry, Gaydon, Solihull, în Regatul Unit;
+            \n\n- sloganul companiei este: \"Deasupra &amp; dincolo\".
+            \n\n- proprietar: Tata Motors.</item>
+        <item name="subaru">- a fost fondată în 1950;
+            \n\n- fondator: Fuji Heavy Industries Ltd;
+            \n\n- are sediul în Ebisu, Japonia;
+            \n\n- sloganul companiei este: \"Gândește. Simte. Șofează.\".</item>
+        <item name="dodgeram">- a fost fondată în 2010;
+            \n\n- fondator: Stellantis;
+            \n\n- are sediul în Auburn Hills, Michigan;
+            \n\n- sloganul companiei este: \"Guts. Glory. Ram.\".</item>
+        <item name="tesla">- a fost fondată în 2003;
+            \n\n- fondator: Martin Eberhard, Marc Tarpenning;
+            \n\n- are sediul în Palo Alto, California, United States;
+            \n\n- sloganul companiei este: \"Pentru a accelera apariția transportului durabil și a tehnologiei electrice.\".
+            \n\n- proprietari: Elon Musk, The Vanguard Group, BlackRock.</item>
+    </string-array>
+
+    <string name="welcome">Bine ai venit la asistentul tău pentru consiliere auto!!!</string>
+    <string name="loginPage">Start</string>
+
+    <string name="details">Detalii</string>
+    <string name="forgotPassword">Ați uitat parola?</string>
+    <string name="caroseriiTextChart">Caroserii</string>
+
+    <string-array name="glume">
+        <item>Discuţie într-o staţie de taxi :
+     \n– Care sunt preţurile la dvs. ?
+     \n- 3 lei pornitul și 1.5 lei de kilometrul.
+     \n- Daţi-i drumul , eu îl iau din mers…</item>
+        <item>Poliţistul îl chestionează pe conducătorul auto internat în spital:
+    \n- Cum a avut loc accidentul?
+    \n- Conducătoarea autoturismului din faţa mea a semnalizat schimbarea direcţiei de mers către stânga.
+    \n- Şi?
+    \n- Şi, contrar tuturor previziunilor mele, a virat la stânga…</item>
+        <item>Un şofer, vrând să-şi protejeze maşina împotriva hoţilor şi neavând bani pentru o alarmă, lasă un bilet pe parbrizul maşinii:
+    \n- \'Radioul - defect, benzină - nu are, motorul - componente lipsă\'.
+    \n- Dimineaţa îşi gaseşte maşina pe butuci şi un alt bilet pe care scria:\'DECI, de roţi nu mai are nevoie!\'</item>
+        <item>Agentul de circulaţie opreşte o maşină condusă de o doamnă în vârstă:
+    \n– Doamnă! Nu e bine să conduceţi cu 20 km/h, fiindcă stânjeniţi circulaţia!
+    \n– Dar eu numai am respectat limitarea de viteză de 21 km/h.
+    \n– Doamnă! Acel indicator nu arată limitarea de viteză, ci faptul că rulaţi pe Drumul Naţional nr. 21.
+    \n– Zău? Mulțumesc mult… Agentul observă că pasagerii stau într-o linişte mormântală în maşină.
+    \n– Doamnă! De ce stau aşa încremeniţi pasagerii dvs?
+    \n– Oh, nu au nimic… Încă nu şi-au revenit de când am virat de pe Drumul Naţional nr. 195.</item>
+        <item>Ce e scris la pagina 39 din manualul Loganului?
+    \n-R: Orarul autobuzului.</item>
+        <item>Discuţie la Dacia:
+    \n– Ce ar trebui schimbat ca maşinile noastre să corespundă normelor internaţionale?
+    \n– Normele internaţionale.</item>
+        <item>Un șofer este oprit de un polițist. Coboară șoferul din mașină ofticat și-l întreabă pe polițist:
+    \n- Mergeam prea repede?
+    \n- Nu, zburați prea jos!</item>
+        <item>Doi prieteni vorbeau:
+    \n- Cum a fost la examenul auto?
+    \n- Nu știu, când am părăsit spitalul, examinatorul era încă inconștient.</item>
+        <item>Un tip aflat într-un taxi îl bate pe umăr pe șofer, ca să-l întrebe ceva. Șoferul strigă ca din gură de șarpe, pierde controlul mașinii, de-abia reușește să evite un autobuz care vine din direcția opusă, intră pe trotuar, și în sfârșit oprește cu câțiva centrimetri înaintea unei vitrine! Pentru câteva secunde e liniște totală, apoi șoferul urlă:
+    \n- Să nu mai faceți asta niciodată! M-ați speriat de moarte! Pasagerul rămâne mască și se scuză cum poate:
+    \n- Nu puteam știi că vă speriați așa tare datorită unei atingeri pe umăr?
+    \n- E și greșeala mea, spuse șoferul ceva mai liniștit. Azi a fost prima mea zi ca șofer de taxi. Ultimii 25 de ani am fost șoferul unei masini de pompe funebre!</item>
+        <item>Poliţistul vrea să-i pună fiola unui şofer.
+    \n- Nu pot să suflu, am astm.
+    \n- Atunci, hai să-ţi luăm sânge.
+    \n- Nu pot, sunt hemofilic.
+    \n- Atunci, hai să mergi pe dunga albă.
+    \n- Nu pot, sunt beat.</item>
+        <item>Un mecanic auto ajunge în cer și i se plânge Sfântului Petru:
+    \n- Cum se poate să mor la 38 de ani?
+    \n- Uite, noi am adunat toate orele de manoperă de pe chitanțele eliberate de tine și reiese că ai 90 de ani.</item>
+    </string-array>
+
+    <string name="awesome">Super!</string>
+    <string name="nice">Okay</string>
+    <string name="horrible">Așa și așa</string>
+    <string name="glume">Glume</string>
+
+    <!-- forgot password -->
+    <string name="existentaGmail">Introduceți emailul pentru a verifica existența contului</string>
+    <string name="corectitudineUsername">Introduceți username-ul pentru verificarea identității</string>
+    <string name="existEmail">Email-ul există</string>
+    <string name="existNotEmail">Nu există cont cu această adresă de email</string>
+    <string name="corectUsername">Username-ul este corect</string>
+    <string name="notCorectUsername">Username-ul nu este corect</string>
+    <string name="fillParolaNoua">Completați câmpul parolă nouă</string>
+    <string name="fillConfirmaParolaNoua">Completați câmpul confirmă parolă nouă</string>
+</resources>

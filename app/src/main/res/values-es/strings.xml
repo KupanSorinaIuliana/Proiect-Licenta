@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asesor de Coches</string>
+    <string name="compareTxt">Compara las carrocerías</string>
+    <string name="home">Menú principal</string>
+    <string name="descriereTxt">Descripción de carrocerías</string>
+    <string name="masinaTxt">Sugerencias de coches</string>
+    <string name="caroserieTxt">Descubra qué carrocerías le convienen</string>
+    <string name="descriereMarca">Descripción de las marcas</string>
+    <string name="txtEnumerareCaroserii">Estas son las carrocerías entre las que sería recomendable elegir:</string>
+    <string name="nume">Nombre</string>
+    <string name="prenume">Segundo nombre</string>
+    <string name="varsta">Edad</string>
+    <string name="parola">Contraseña</string>
+    <string name="reg">Registrate</string>
+    <string name="log">Iniciar sesión</string>
+    <string name="mesLogin">¿Aún no tienes una cuenta? Registrate aquí.</string>
+    <string name="mesRegister">¿Ya tienes una cuenta? Entre aquí.</string>
+    <string name="confParola">Confirma la contraseña</string>
+    <string name="faraCont">Continuar sin cuenta</string>
+    <string name="schimbaParola">¿Se te olvidó tu contraseña?</string>
+    <string name="desc1">Breve descripción.</string>
+    <string name="desc2">Argumentos a favor</string>
+    <string name="desc3">Argumentos en contra</string>
+    <string name="acc">Detalles de la cuenta</string>
+    <string name="schimba">Cambia la contraseña</string>
+    <string name="txtSchimba">Cambia</string>
+    <string name="txtConfirma">Confirma la nueva contraseña</string>
+    <string name="txtParola">Nueva contraseña</string>
+    <string name="txtParolaNoua">Introduzca la nueva contraseña</string>
+    <string name="txtParolaInitiala">Contraseña anterior</string>
+    <string name="primaCaroserie">La primera carrocería</string>
+    <string name="adouaCaroserie">La segunda carrocería</string>
+    <string name="compara">Compara</string>
+    <string name="titlu">Eliga dos carrocerías</string>
+    <string name="after">¿Quieres conocer otros detalles además de la carrocería?</string>
+    <string name="afla">Saber más</string>
+    <string name="procente">Tus porcentajes son:</string>
+    <string name="statistici">Mis estadisticas</string>
+    <string name="statisticiGenerale">Estadísticas generales</string>
+    <string name="help">Ayuda</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="myCars">Mis coches</string>
+    <string name="remember">Recuérdame</string>
+
+    <string name="error_message_name">Introduzca su nombre completo</string>
+    <string name="error_message_username">Introduzca su nombre de usuario</string>
+    <string name="error_message_email">Introduzca un email valido</string>
+    <string name="error_message_password">Introdzca la contraseña</string>
+    <string name="success_message">Registro exitoso</string>
+    <string name="error_email_exists">El E-mail ya existe</string>
+    <string name="error_password_match">Las contraseñas no coinciden</string>
+    <string name="error_valid_email_password">E-mail o contraseña equivocada</string>
+    <string name="error_message_age">Introduzca la edad</string>
+
+
+    <string-array name="intrebari" >
+        <item>¿Quieres realizar la compra para un particular o una empresa?</item>
+        <item>¿Cuál es el uso predominante del automóvil?</item>
+        <item>¿Tiene hijos?</item>
+        <item>¿El coche también se utilizará para vacaciones o senderismo?</item>
+        <item>Sexo:</item>
+        <item>¿Cuál es tu experiencia de conducción?</item>
+        <item>¿El coche será el principal o el secundario?</item>
+    </string-array>
+
+    <!--    Raspunsuri caroserii-->
+    <string-array name="firma">
+        <item>empresa</item>
+        <item>individual</item>
+    </string-array>
+    <string-array name="utilizare">
+        <item>urbano</item>
+        <item>extra urbano</item>
+        <item>mixto</item>
+    </string-array>
+    <string-array name="copii">
+        <item>sin</item>
+        <item>2 niños</item>
+        <item>más</item>
+    </string-array>
+    <string-array name="concediu">
+        <item>sí</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="sex">
+        <item>femenino</item>
+        <item>masculino</item>
+    </string-array>
+    <string-array name="experienta">
+        <item>principiante</item>
+        <item>medio</item>
+        <item>avanzado</item>
+    </string-array>
+    <string-array name="principala">
+        <item>principal</item>
+        <item>secundaria</item>
+    </string-array>
+    <string name="helpTitle">Como podemos ayudarte?</string>
+    <string name="helpAccount">¿Cómo cambio los datos de mi cuenta?</string>
+    <string name="helpPassword">¿Como puedo cambiar mi contraseña?</string>
+    <string name="helpNewAccount">¿Cómo creo una cuenta?</string>
+    <string name="helpDescriere">Ayuda con las opciones de descripción</string>
+    <string name="helpFiltrare">Ayuda con las opciones de filtrado</string>
+    <string name="helpComparare">Ayuda con la opción de comparación</string>
+    <string name="forgotPass">Olvidé mi contraseña, ¿qué debo hacer?</string>
+
+    <string-array name="accountHelpDescription">
+        <item>1. En cualquier interfaz en la que se encuentre, haga click en el icono en la parte superior izquierda.</item>
+        <item>2. Haga click en el icono con el texto: detalles de la cuenta.</item>
+        <item>3. Haga click en el ícono de lápiz para cambios de datos.</item>
+    </string-array>
+    <string-array name="passwordHelpDescription">
+        <item>1. En cualquier interfaz en la que se encuentre, haga clic en el ícono en la parte superior izquierda.</item>
+        <item>2. Haga clic en el icono con el texto: detalles de la cuenta.</item>
+        <item>3. Haga clic en el texto: \"Cambiar contraseña\"</item>
+        <item>4. Complete los espacios en blanco y haga clic en \"Cambiar contraseña\"</item>
+    </string-array>
+    <string-array name="fpassHelp">
+        <item>1. Vaya a la página de inicio de sesión.</item>
+        <item>2. Haga click en \ "¿Se te olvidó tu contraseña? \".</item>
+    </string-array>
+    <string-array name="descHelp">
+        <item>1. </item>
+        <item>2. Si hace click en una de las opciones de descripción, será redirigido a una página que contiene una lista de las marcas o las carrocerías.</item>
+    </string-array>
+    <string-array name="filterHelp">
+        <item>1. Tiene 2 opciones de filtrado, que pueden identificarse con este icono:</item>
+        <item>2. Si hace click en uno de ellos, será redirigido a una página que contiene un cuestionario para filtrar los autos o las carrocerías.</item>
+    </string-array>
+    <string-array name="compareHelp">
+        <item>1. La opción de comparación se puede identificar con este icono:</item>
+        <item>2. Cuando hagas click, serás redirigido a una página que te dirá que elijas las 2 carrocerías que deseas comparar.</item>
+    </string-array>
+    <string name="intrebare1Masina">Elige la carrocería para la que quieres conocer los modelos:</string>
+    <string-array name="intrebariMasini">
+        <item>¿Cual es tu presupuesto?</item>
+        <item>¿Qué tipo de combustible prefieres?</item>
+    </string-array>
+    <string-array name="bugetAchizitie">
+        <item>menos de 5000€</item>
+        <item>entre 5000€ y 10000€</item>
+        <item>más de 10000€</item>
+        <item>nueva</item>
+    </string-array>
+    <string-array name="combustibil">
+        <item>bencina</item>
+        <item>diesel</item>
+        <item>eléctrica</item>
+        <item>híbrida</item>
+    </string-array>
+
+    <!-- detalii masini-->
+    <string name="caroserieDetalii">Carrocería</string>
+    <string name="marcaDetalii">Marca</string>
+    <string name="anulDetalii">Año</string>
+    <string name="caiPutereDetalii">Caballo de fuerza</string>
+    <string name="capCilindricaDetalii">Capacidad cilíndrica</string>
+    <string name="alimentareaDetalii">Combustible</string>
+    <string name="intervalPretDetalii">Rango de precios</string>
+    <string name="saveDetalii">Salva este coche</string>
+    <string name="deleteDetalii">Elimina este coche</string>
+    <string name="modeleTxt">Modelos guardados</string>
+
+    <string name="chartPopularitate">Popularidad de carrocerías</string>
+    <string name="chartComparatie">Porcentajes de las carrocerías</string>
+
+    <!--- informatii caroserii-->
+    <string-array name="descrieri">
+        <item name = "compact"> • El automóvil compacto, identificado como un automóvil pequeño en Europa, se encuentra entre los vehículos medianos y subcompactos. Por lo general, Honda Civic, Hyundai Elantra, Chrysler PT Cruiser y Audi A3 entran en la categoría compacta. El compacto puede ser un modelo hatchback, con dos y cuatro puertas y un compacto deportivo. Por lo general, están equipados de fábrica con un motor de cuatro cilindros.
+\n • El compacto ha estado disponible de alguna forma desde los inicios del automóvil, pero a medida que los autos crecieron, el compacto debutó oficialmente con el Nash Rambler de 1950, que tenía una distancia entre ejes de 254 centímetros.
+\n • Los vehículos pequeños o compactos tienen entre 100 y 109 metros cúbicos de volumen combinado de pasajeros y mercancías y tienen una longitud entre 409 y 475 centímetros. </item>
+        <item name = "sedan"> • El sedán es un tipo de automóvil con carrocería cerrada, con 2 o 4 puertas, con 2 ventanas laterales a cada lado, dispuesto para cuatro o más pasajeros.
+\n • Su finalidad principal es el transporte de personas por carreteras normales.
+\n • El sedán es uno de los tipos de carrocería más comunes en la actualidad. </item>
+        <item name = "hatchback"> • Tiene 2 o 4 puertas.
+\n • La palabra hatchback es un neologismo del idioma inglés, donde hatch significa escotilla y back significa espalda.
+\n • Este tipo de carrocería también se denomina carrocería de dos volúmenes, siendo uno de los volúmenes el compartimento del motor y el segundo compartimento de pasajeros fusionado con el maletero.
+\n • La escotilla trasera generalmente tiene bisagras en la parte superior y los respaldos de la fila de asientos traseros se pueden plegar para aumentar el espacio de carga. </item>
+        <item name = "coupe"> • Tiene 2 puertas, pero los modelos cupé más nuevos también tienen 4.
+\n • Generalmente se proporcionan para dos personas, siendo los asientos traseros más incómodos para los adultos, pero para determinadas situaciones son perfectos para los niños.
+\n • El término cupé proviene de la traducción francesa de \"cortar\". </item>
+        <item name = "stationWagon"> • Tiene 4 puertas, es un tipo de carrocería apto para vacaciones.
+\n • Recomendado para familias con 2 niños.
+\n • Se derivan del tipo de carrocería sedán.
+\n • Proporciona un gran espacio de almacenamiento de equipaje al plegar los asientos traseros. </item>
+        <item name = "roadster"> • Tiene 2 puertas, es un cuerpo de spider.
+\n • El número de asientos es 2, uno para el conductor y otro para el otro pasajero.
+\n • Sin techo. </item>
+        <item name = "cabriolet"> • También llamado cupé de cabeza abatible.
+\n • Se puede convertir en un coche descapotable gracias al techo retráctil.
+\n • El número de puertas es 2, con 4 asientos disponibles para pasajeros plegando los asientos delanteros.
+\n • Se puede utilizar tanto en entornos urbanos como no urbanos. </item>
+        <item name = "muscleCar"> • En los Estados Unidos se les llamaba Supercars.
+\n • Se puede convertir en un coche descapotable gracias al techo retráctil.
+\n • El número de puertas es 2, con asientos disponibles tanto para el conductor como para 2 pasajeros más, 3 si no se tiene en cuenta la comodidad.
+\n • Se puede utilizar tanto en entornos urbanos como no urbanos. </item>
+        <item name = "sportCar"> • La carrocería del automóvil deportivo nació en Europa.
+\n • Por su diseño ofrece un rendimiento dinámico.
+\n • La cantidad de puertas es 2, normalmente estos autos son para 2 personas, pero los modelos más nuevos tienen 2 asientos más con menos comodidad.
+\n • Se puede utilizar tanto en entornos urbanos como no urbanos. </item>
+        <item name = "suv"> • SUV proviene del vehículo utilitario deportivo.
+\n • Específico para familias con 2 niños.
+\n • El número de puertas es 4, con 5 asientos disponibles.
+\n • Son específicos del entorno extraurbano. </item>
+        <item name = "suvCompact"> • SUV proviene del vehículo utilitario deportivo.
+\n • El SUV compacto es un tipo de carrocería SUV más pequeño.
+\n • Específico para familias con 2 niños.
+\n • El número de puertas es 2 o 4, con 5 asientos disponibles.
+\n • Espacio de almacenamiento de equipaje más pequeño que un SUV normal.
+\n • Son específicos del entorno extraurbano. </item>
+        <item name = "pickup"> • Por lo general, una derivación de un sedán o SUV.
+\n • Gran espacio de almacenamiento para materiales o equipaje en la parte trasera, sin techo.
+\n • El número de puertas es 2 o 4, con 5 asientos disponibles.
+\n • Especifica para el entorno extraurbano y para las empresas de construcción que requieren el almacenamiento de ciertos materiales. </item>
+        <item name = "miniVan"> • El número de filas para pasajeros es 3.
+\n • Gran espacio de almacenamiento para materiales o equipaje.
+\n • El número de asientos disponibles es 7-8.
+\n • Específico para el entorno extraurbano, pero también urbano para familias numerosas. </item>
+        <item name = "van"> • Suele utilizarse para transportar personas o mercancías.
+\n • En la mayoría de los casos no tiene ventanas traseras.
+\n • Gran espacio de almacenamiento para materiales o equipaje.
+\n • El número de asientos disponibles es de 2 a 3 para furgonetas que se utilizan para transportar mercancías o más de 8 para transportar personas.
+\n • Especifica para el entorno extraurbano. </item>
+    </string-array>
+    <string-array name="pro">
+        <item name = "compact"> • Alta autonomía en comparación con vehículos más grandes.
+\n • A menudo cuesta menos que los vehículos más grandes.
+\n • Más fácil de estacionar y manejar.
+\n • Proporciona una experiencia de conducción divertida y diferente.
+\n • Popularidad para la reventa.
+\n • A veces son más fiables porque son más básicos y se utilizan principalmente en todo el mundo. </item>
+        <item name = "sedan"> • Los sedanes son más estables a altas velocidades.
+\n • Proporciona más privacidad (ventanas pequeñas, no visibles en el interior).
+\n • Gran maletero (en comparación con el hatchback).
+\n • Tiene 4 puertas, por lo que cada pasajero puede entrar directamente en su asiento.
+</item>
+        <item name = "hatchback"> • Adecuado para la ciudad.
+\n • Se puede maniobrar fácilmente en estacionamientos, devoluciones.
+\n • Fácil de conducir para principiantes.
+\n • Proporciona una mejor autonomía.
+</item>
+        <item name = "coupe"> • Es adecuado para la ciudad.
+\n • Es fácil de conducir para cualquier tipo de conductor, en términos de experiencia.
+\n • Parte del techo es retráctil.
+</item>
+        <item name = "stationWagon"> • Adecuado para vacaciones.
+\n • Es fácil de conducir tanto para conductores experimentados como avanzados.
+\n • Gran espacio de almacenamiento de equipaje.
+\n • Ahorro de combustible debido al bajo peso.
+</item>
+        <item name = "roadster"> • Libertad.
+\n • Mejor visibilidad que los autos normales debido a la falta de la parte superior y los lados de la carretera.
+</item>
+        <item name = "cabriolet"> • Libertad, pero también la posibilidad de cerrar el techo en caso de lluvia.
+\n • Mejor visibilidad que los coches normales debido a la posibilidad de retraer el techo.
+\n • Se puede utilizar en cualquier entorno.
+</item>
+        <item name = "muscleCar"> • La libertad que ofrece el techo retráctil.
+\n • Se puede utilizar en cualquier entorno.
+</item>
+        <item name = "sportCar"> • Rendimiento dinámico.
+\n • Se puede utilizar en cualquier entorno.
+</item>
+        <item name = "suv"> • Adecuado para vacaciones, pero también para empresas.
+\n • Gran espacio de almacenamiento de equipaje.
+\n • Tracción 4x4, más precisamente para el entorno todoterreno.
+</item>
+        <item name = "suvCompact"> • Posición de asiento alta.
+\n • Alta seguridad en caso de accidente debido al tamaño del cuerpo.
+\n • Tracción 4x4, más precisamente para el entorno todoterreno. </item>
+        <item name = "pickup"> • Las habilidades todoterreno son mejores.
+\n • Gran espacio de almacenamiento para equipaje o materiales.
+\n • Más potencia para remolque y transporte.
+\n • Tracción 4x4, más precisamente para el entorno todoterreno. </item>
+        <item name = "miniVan"> • Adecuado para vacaciones familiares.
+\n • Gran espacio de almacenamiento de equipaje.
+\n • Muchos asientos disponibles.
+\n • Alta seguridad en caso de accidente debido al tamaño del cuerpo. </item>
+        <item name = "van"> • Adecuado para empresas de transporte de pasajeros o empresas de construcción.
+\n • Gran espacio de almacenamiento para equipaje o materiales.
+\n • El número de asientos puede ser tan grande como se desee.
+\n • Alta seguridad en caso de accidente debido al tamaño del cuerpo. </item>
+    </string-array>
+    <string-array name="contra">
+<item name = "compact"> • Menos potencia para que puedas tener más tiempo para alcanzar velocidades más altas y será más lento, subiendo grandes colinas y terrenos accidentados.
+\n • Puede que no ofrezca un viaje tan suave como los autos más grandes en viajes largos.
+\n • Puede ser más peligroso si se ve involucrado en accidentes automovilísticos.
+\n • Menos espacio para conductores, pasajeros y carga.
+\n • Es posible que se dé cuenta de cómo se ve en un vehículo pequeño, especialmente cuando pasan automóviles más grandes.
+\n • No es adecuado como automóvil familiar o de vacaciones. </item>
+        <item name = "sedan"> • No recomendado para viajes.
+\n • Ventanas pequeñas.
+\n • Tiene un maletero grande en comparación con el hatchback, pero en comparación con un SUV es bastante pequeño.
+</item>
+        <item name = "hatchback"> • Portaequipajes pequeño.
+\n • No apto para más de 2 personas.
+\n • El maletero y el asiento del pasajero están juntos, lo que brinda una posibilidad fácil de robar con solo romper una ventana.
+</item>
+        <item name = "coupe"> • No apto para familias.
+\n • Cuando el sol desaparece, el techo desplegable ya no es tan práctico.
+</item>
+        <item name = "stationWagon"> • No apto para conductores novatos.
+\n • La forma rectangular es menos dinámica.
+</item>
+        <item name = "roadster"> • No apto para días lluviosos.
+\n • Hay asientos solo para el conductor y otro pasajero.
+\n • Baja seguridad a la hora de guardar equipaje en este coche.
+\n • El interior de la máquina se ensuciará mucho más rápido.
+</item>
+        <item name = "cabriolet"> • No apto para familias.
+\n • Pequeño espacio de almacenamiento de equipaje.
+</item>
+        <item name = "muscleCar"> • No apto para familias.
+\n • Pequeño espacio de almacenamiento de equipaje.
+</item>
+        <item name = "sportCar"> • No apto para familias.
+\n • Pequeño espacio de almacenamiento de equipaje.
+</item>
+        <item name = "suv"> • No apto para principiantes.
+\n • Difícil de manejar en espacios reducidos o ciudades.
+</item>
+        <item name = "suvCompact"> • No apto para principiantes.
+\n • Espacio de almacenamiento de equipaje más pequeño que un SUV normal.
+        </item>
+        <item name = "pickup"> • No apto para principiantes.
+\n • Difícil de manejar en espacios reducidos o ciudades.
+\n • Pocos modelos para elegir. </item>
+        <item name = "miniVan"> • No apto para principiantes.
+\n • Difícil de manejar en espacios reducidos o ciudades.
+\n • No son tan efectivos en áreas nevadas o fuera de la carretera.
+</item>
+        <item name = "van"> • No apto para principiantes.
+\n • Difícil de manejar en espacios reducidos o ciudades.
+\n • Potencia de tracción baja. </item>
+    </string-array>
+
+    <string-array name="istoricMarci">
+        <item name="volkswagen">- fue fundada en 1937;
+              \n\n- fundadores: Adolf Hitler, Karl Benz, Ferdinand Porsche y Robert Ley en 1938; Ivan Hirst y Heinz Nordhoff en 1948;
+              \n\n- sede: Wolfsburg, Alemania;
+              \n\n- el lema de la empresa es: \"Por el amor al automóvil\";
+              \n\n- pertenece a la empresa Volkswagen Group.
+             </item>
+        <item name="skoda">- fue fundada en 1895 como \"Laurin &amp; Klement\";
+              \n\n- fundadores: Václav Laurin y Václav Klement;
+              \n\n- sede: Mladá Boleslav, República Checa;
+              \n\n- El lema de la empresa es: \"Simplemente inteligente\";
+              \n\n- desde 1991 pertenece a la empresa Volkswagen Group.</item>
+        <item name="audi">- fue fundada en 1909 en Zwickau;
+              \n\n- fundadores: August Horch;
+              \n\n- sede: Ingolstadt, Alemania;
+              \n\n- el lema de la empresa es: \"Progreso a través de la tecnología\";
+              \n\n- pertenece a la empresa Volkswagen Group.</item>
+        <item name="seat">- fue fundada el 9 de mayo de 1950;
+              \n\n- fundadores: Instituto Nacional de Industria;
+              \n\n- sede: Martorell, España;
+              \n\n- el lema de la empresa es: \"Auto emocion\";
+              \n\n- pertenece a la empresa Volkswagen Group.</item>
+        <item name="peugeot">- fue fundada en 1810;
+              \n\n- sede: Poissy, Francia;
+              \n\n- El lema de la empresa es: \"Peugeot. Diseñado para complacer\";
+              \n\n- pertenece al grupo PSA Peugeot Citroën.</item>
+        <item name="citroen">- fue fundada en 1919;
+              \n\n- fundador: André Citroën;
+              \n\n- sede: París, Francia;
+              \n\n- El lema de la empresa es: \"Inspirado por ti\";
+              \n\n- pertenece al grupo PSA Peugeot Citroën.</item>
+        <item name="opel">- fue fundada el 21 de enero de 1862;
+              \n\n- Fundador: Adam Opel;
+              \n\n- sede: Rüsselsheim, Alemania;
+              \n\n- el lema de la empresa es: \"El futuro es de todos\";
+              \n\n- pertenece al grupo PSA Peugeot Citroën.</item>
+        <item name="renault">- fue fundada el 24 de diciembre de 1898;
+              \n\n- fundadores: Louis Renault, Marcel Renault, Fernand Renault;
+              \n\n- sede: Tokio, Japón;
+              \n\n- el lema de la empresa es: \"Creador de coches\";
+              \n\n- pertenece al grupo Renault.</item>
+        <item name="dacia">- fue fundada en 1966;
+              \n\n- sede: Mioveni, Rumania;
+              \n\n- pertenece al grupo Renault.</item>
+        <item name = "hyundai"> - fue fundada el 29 de diciembre de 1967;
+             \n\n- fundador: Chung Ju-yung;
+             \n\n- sede: Seúl, Corea del Sur;
+             \n\n- el lema de la empresa es: \"Nuevo pensamiento, nuevas posibilidades\";
+             \n\n- Pertenece al grupo Hyundai Motor. </item>
+        <item name = "kia"> - fue fundada en 1944;
+             \n\n- sede: Seúl, Corea del Sur;
+             \n\n- el lema de la empresa es: \"El movimiento inspirador\";
+             \n\n- Pertenece al grupo Hyundai Motor. </item>
+        <item name = "bmw"> - fue fundada el 7 de marzo de 1916;
+             \n\n- fundadores: Franz Josef Popp, Karl Rapp, Camillo Castiglioni;
+             \n\n- sede: Munich, Alemania;
+             \n\n- el lema de la empresa es: \"El placer de conducir\"; </item>
+        <item name = "fiat"> - fue fundada el 11 de julio de 1899;
+             \n\n- fundador: Giovanni Agnelli;
+             \n\n- sede: Turín, Italia;
+             \n\n- propietario: Fiat Chrysler Automobiles. </item>
+        <item name = "toyota"> - fue fundada en 1937;
+             \n\n- fundador: Kiichiro Toyoda;
+             \n\n- sede: Toyota, Japón;
+             \n\n- el lema de la empresa es: \"Avanzando\";
+             \n\n- propietario: Toyota Motor Corporation. </item>
+        <item name = "mercedes"> - fue fundada en 1881;
+             \n\n- fundadores: Gottlieb Daimler, Karl Benz;
+             \n\n- es una marca alemana;
+             \n\n- el lema de la empresa es: \"Lo mejor o nada\";
+             \n\n- propietario: DaimlerChrysler AG. </item>
+        <item name = "ford"> - fue fundado el 17 de junio de 1903;
+             \n\n- fundador: Henry Ford;
+             \n\n- sede: Dearborn, EE. UU.;
+             \n\n- el lema de la empresa es: \"Adelante\";
+             \n\n- propietario: Ford Motor Company. </item>
+        <item name = "suzuki"> - fue fundada en 1909;
+             \n\n- fundador: Michio Suzuki;
+             \n\n- sede: Hamamatsu, Shizuoka, Japón;
+             \n\n- el lema de la empresa es: \"Estilo de vida\";
+             \n\n- Propietario: Suzuki Motor Corporation. </item>
+        <item name = "mazda"> - fue fundada en 1909;
+             \n\n- fundador: Michio Suzuki;
+             \n\n- sede: Hamamatsu, Shizuoka, Japón;
+             \n\n- el lema de la empresa es: \"Estilo de vida\";
+             \n\n- propietario: Suzuki Motor Corporation. </item>
+        <item name = "nissan"> - fue fundada el 26 de diciembre de 1933;
+             \n\n- fundadores: Masujiro Hashimoto, Kenjiro Den, Rokuro Aoyama, Meitaro Takeuchi, Yoshisuke Aikawa, William R. Gorham;
+             \n\n- sede: Yokohama, Japón;
+             \n\n- el lema de la empresa es: \"Innovación para todos\";
+             \n\n- Pertenece al grupo Nissan. </item>
+        <item name = "cooper"> - fue fundada en 1959;
+             \n\n- fundador: BMW;
+             \n\n- sede: Cowley, Oxford, Inglaterra;
+             \n\n- es un auto deportivo urbano; </item>
+        <item name = "volvo"> - fue fundada en 1927;
+             \n\n- fundador: SKF;
+             \n\n- sede: Gotemburgo, Suecia;
+             \n\n- el lema de la empresa es: \"De por vida\";
+             \n\n- pertenece al grupo chino Geely. </item>
+        <item name = "jaguar"> - fue fundada el 11 de septiembre de 1922 como Swallow Sidecar Company;
+             \n\n- el nombre se cambió a Jaguar en 1945;
+             \n\n- fundadores: William Lyons y William Walmsley;
+             \n\n- sede: Coventry, Reino Unido;
+             \n\n- propiedad de: Tata Motors Ltd. </item>
+        <item name = "alfa"> - fue fundada en 1910;
+             \n\n- fundador: Cavalier Ugo Stella;
+             \n\n- sede: provincia de Turín;
+             \n\n- el lema de la empresa es: \"La mecánica de la emoción\";
+             \n\n- propietario: Fiat Group Automobiles S.p.A. </item>
+        <item name = "infiniti"> - fue fundada en 1989;
+              \n\n- sede: Hong Kong;
+              \n\n- el lema de la empresa es: \"Empoderar la conducción\";
+              \n\n- pertenece a la empresa Renault-Nissan. </item>
+        <item name = "chevrolet"> - fue fundada en 1911;
+             \n\n- fundadores: Arthur Chevrolet, Louis Chevrolet, William C. Durant;
+             \n\n- sede: Detroit, Michigan, EE. UU.;
+             \n\n- El lema de la empresa es: \"Encuentra nuevas carreteras.\";
+             \n\n- propietario: General Motors. </item>
+        <item name = "porsche"> - fue fundada en 1948;
+             \n\n- fundador: Ferdinand Porsche;
+             \n\n- sede: Stuttgart, Baden-Württemberg;
+             \n\n- El lema de la empresa es: \"No hay sustituto\". </item>
+        <item name = "mitsubishi"> - fue fundada en 1917;
+             \n\n- Fundador: Iwasaki Yatarō;
+             \n\n- sede: Tokio, Japón;
+             \n\n- El lema de la empresa es: \"Conduce tu ambición\". </item>
+        <item name = "jeep"> - fue fundado en 1940;
+             \n\n- fundador: Chrysler Group LLC;
+             \n\n- sede: Toledo, Ohio, EE. UU.;
+             \n\n- El lema de la empresa es: \"Solo hay uno\". </item>
+        <item name = "landrover"> - fue fundado en 1948;
+             \n\n- fundador: Jaguar Land Rover;
+             \n\n- sede: Coventry, Gaydon, Solihull, Reino Unido;
+             \n\n- El lema de la empresa es: \"Sobre &amp; más allá de\".
+             \n\n- propietario: Tata Motors. </item>
+        <item name = "subaru"> - fue fundada en 1950;
+             \n\n- fundador: Fuji Heavy Industries Ltd;
+             \n\n- sede: Ebisu, Japón;
+             \n\n- El lema de la empresa es: \"Piensa. Siente. Conduce.\". </item>
+        <item name = "dodgeram"> - fue fundada en 2010;
+             \n\n- fundador: Stellantis;
+             \n\n- sede: Auburn Hills, Michigan;
+             \n\n- El lema de la empresa es: \"Guts. Glory. Ram.\". </item>
+        <item name = "tesla"> - fue fundada en 2003;
+              \n\n- fundador: Martin Eberhard, Marc Tarpenning;
+              \n\n- sede: Palo Alto, California, Estados Unidos;
+              \n\n- El lema de la empresa es: \"Acelerar el advenimiento del transporte sostenible y la tecnología eléctrica\".
+              \n\n- propietarios: Elon Musk, The Vanguard Group, BlackRock. </item>
+    </string-array>
+
+    <string name="welcome">Bienvenido a su asistente de coche!!!!</string>
+    <string name="loginPage">Comenzar</string>
+
+    <string name="details">Detalles</string>
+    <string name="forgotPassword">¿Se te olvidó tu contraseña?</string>
+    <string name="caroseriiTextChart">Carrocería</string>
+
+    <string-array name="glume">
+        <item>Discusión en una parada de taxis:
+      \n– ¿Cuáles son sus precios?
+      \n- 3 euros para la salida y 1,5 euros para el kilómetro.
+     \n- Déjalo ir, lo tomare sobre la marcha…</item>
+        <item>El policía le pregunta al conductor hospitalizado:
+     \n- ¿Cómo ocurrió el accidente?
+     \n- El conductor del coche de delante señaló un cambio de dirección hacia la izquierda.
+     \n- ¿Y?
+     \n- Y, contrariamente a todas mis predicciones, giró a la izquierda…</item>
+        <item>Un conductor, que quiere proteger su automóvil de los ladrones y no tiene dinero para una alarma, deja una nota en el parabrisas del automóvil:
+     \n- \'Radio - defectuosa, gasolina - no, motor - faltan componentes \'.
+     \n- Por la mañana encuentra su auto en los troncos y otra nota que dice: \'¡ASÍ que ya no necesita las ruedas! \'</item>
+        <item>El conductor detiene un automóvil conducido por una anciana:
+     \n– ¡Señora! ¡No es bueno conducir a 20 km/h porque está obstruyendo el tráfico!
+     \n– Pero solo cumplí con el límite de velocidad de 21 km/h.
+     \n– ¡Señora! Ese indicador no muestra el límite de velocidad, sino el hecho de que está conduciendo por la Carretera Nacional no. 21.
+     \n– ¿En serio? Muchas gracias… El agente advierte que los pasajeros están sentados en un grave silencio en el auto.
+     \n– ¡Señora! ¿Por qué tus pasajeros están tan congelados?
+     \n– Oh, no tienen nada… Todavía no se han recuperado desde que salí de la Carretera Nacional no. 195.</item>
+        <item>¿Qué está escrito en la página 39 del manual de Logan?
+     \n-R: El horario de autobuses.</item>
+        <item>Discusión en Dacia:
+     \n– ¿Qué debería cambiarse para que nuestros coches cumplan con las normas internacionales?
+     \n– Las normas internacionales.</item>
+        <item>Un oficial de policía detiene a un conductor. El conductor se bajó del auto aturdido y le preguntó al policía:
+     \n- ¿Iba demasiado rápido?
+     \n- ¡No, vuela demasiado bajo!</item>
+        <item>Dos amigos estaban hablando:
+     \n- ¿Cómo estuvo el examen del auto?
+     \n- No sé, cuando salí del hospital, el examinador aún estaba inconsciente.</item>
+        <item>Un tipo en un taxi le da una palmada en el hombro al conductor para preguntarle algo. El conductor grita, pierde el control del auto, apenas logra esquivar un autobús que viene de la dirección opuesta, entra a la acera, ¡y finalmente se detiene a unos centímetros frente a un escaparate! Durante unos segundos es un silencio total, luego el conductor grita:
+     \n- ¡Nunca vuelvas a hacer eso! ¡Me asustaste hasta la muerte! El pasajero permanece enmascarado y se disculpa lo mejor que puede:
+     \n- ¿No podría saber que estás tan asustado de que te toquen el hombro?
+     \n- \"También es mi culpa\", dijo el conductor con más calma. Hoy fue mi primer día como taxista. ¡Durante los últimos 25 años he sido el conductor de una funeraria!</item>
+        <item>El policía quiere poner una ampolla al conductor.
+     \n- No puedo soplar, tengo asma.
+     \n- Entonces tomemos su sangre.
+     \n- No puedo, soy hemofílico.
+     \n- Entonces sigue la raya blanca.
+     \n- No puedo, estoy borracho.</item>
+        <item>Un mecánico de automóviles llega al cielo y se queja a San Pedro:
+     \n- ¿Cómo puedo morir a los 38?
+     \n- Mire, hemos reunido toda la mano de obra de los recibos que emitió y resulta que tiene 90 años.</item>
+    </string-array>
+
+    <string name="awesome">Impresionante</string>
+    <string name="nice">Agradable</string>
+    <string name="horrible">Así y así.</string>
+    <string name="glume">Chistes</string>
+
+    <!-- forgot password -->
+    <string name="existentaGmail">Introduzca el email para verificar la existencia de la cuenta</string>
+    <string name="corectitudineUsername">Introduzca el nombre de usuario para verificar su identidad</string>
+
+    <string name="existEmail">Existe el email</string>
+    <string name="existNotEmail">No hay una cuenta con este email.</string>
+    <string name="corectUsername">El nombre de usuario es correcto</string>
+    <string name="notCorectUsername">El nombre de usuario no es correcto</string>
+    <string name="fillParolaNoua">Complete el campo de la nueva contraseña</string>
+    <string name="fillConfirmaParolaNoua">Complete el campo para confirmar la nueva contraseña</string>
+</resources>

@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Car Advisor</string>
+    <string name="compareTxt">Compare the body cars</string>
+    <string name="home">Home</string>
+    <string name="descriereTxt">The description of the body cars</string>
+    <string name="masinaTxt">Car suggestions</string>
+    <string name="caroserieTxt">Find out what body cars suit you</string>
+    <string name="descriereMarca">The description of the brands</string>
+    <string name="txtEnumerareCaroserii">These are the body cars from which it would be advisable to choose:</string>
+    <string name="nume">First Name</string>
+    <string name="prenume">Last Name</string>
+    <string name="varsta">Age</string>
+    <string name="parola">Password</string>
+    <string name="reg">Register</string>
+    <string name="log">Login</string>
+    <string name="mesLogin">No account yet? Create one.</string>
+    <string name="mesRegister">Already a member? Login.</string>
+    <string name="confParola">Confirm you password</string>
+    <string name="faraCont">Continue without account.</string>
+    <string name="schimbaParola">Forgot password?</string>
+    <string name="desc1">Short description</string>
+    <string name="desc2">Pro arguments</string>
+    <string name="desc3">Arguments against</string>
+    <string name="acc">Account details</string>
+    <string name="schimba">Change password</string>
+    <string name="txtSchimba">Change</string>
+    <string name="txtConfirma">Confirm new password</string>
+    <string name="txtParola">New Password</string>
+    <string name="txtParolaNoua">Enter the new password</string>
+    <string name="txtParolaInitiala">Old Password</string>
+    <string name="primaCaroserie">The first body car</string>
+    <string name="adouaCaroserie">The second body car</string>
+    <string name="compara">Compare</string>
+    <string name="titlu">Choose two body cars</string>
+    <string name="after">Do you want to know other details besides the body car?</string>
+    <string name="afla">Find out more</string>
+    <string name="procente">Your percentages are:</string>
+    <string name="statistici">My statistics</string>
+    <string name="statisticiGenerale">General statistics</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="myCars">My cars</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_username">Enter Username</string>
+    <string name="error_message_age">Enter age</string>
+    <string name="error_message_email">Enter Valid E-mail</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="error_email_exists">E-mail Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong E-mail or Password</string>
+    <string name="remember">Remember me</string>
+
+
+    <string-array name="intrebari" >
+        <item>Do you want to make the purchase for an individual or a company?</item>
+        <item>What is the predominant use of the car?</item>
+        <item>Do you have children?</item>
+        <item>Will the car also be used for holidays or hiking?</item>
+        <item>Sex:</item>
+        <item>What is your driving experience?</item>
+        <item>Will the car be the main or secondary car?</item>
+    </string-array>
+
+    <!--    Raspunsuri caroserii-->
+    <string-array name="firma">
+        <item>company</item>
+        <item>individual</item>
+    </string-array>
+    <string-array name="utilizare">
+        <item>urban</item>
+        <item>extra-urban</item>
+        <item>mixed</item>
+    </string-array>
+    <string-array name="copii">
+        <item>without</item>
+        <item>2 children</item>
+        <item>more</item>
+    </string-array>
+    <string-array name="concediu">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="sex">
+        <item>feminine</item>
+        <item>masculine</item>
+    </string-array>
+    <string-array name="experienta">
+        <item>beginner</item>
+        <item>medium</item>
+        <item>advanced</item>
+    </string-array>
+    <string-array name="principala">
+        <item>main</item>
+        <item>secondary</item>
+    </string-array>
+    <string name="helpTitle">How can we help you?</string>
+    <string name="helpAccount">How do I change my account data?</string>
+    <string name="helpPassword">How do I change my password?</string>
+    <string name="helpNewAccount">How do I create an account?</string>
+    <string name="helpDescriere">Help with the description options</string>
+    <string name="helpFiltrare">Help with the filtering options</string>
+    <string name="helpComparare">Help with the comparison option</string>
+    <string name="forgotPass">I forgot my password, what should I do?</string>
+
+    <string-array name="accountHelpDescription">
+        <item>1. In any interface you are in, click on the icon on the top left.</item>
+        <item>2. Click on the icon with the text: account details.</item>
+        <item>3. Click on the pencil icon for data changes.</item>
+    </string-array>
+
+    <string-array name="passwordHelpDescription">
+        <item>1. In any interface you are in, click on the icon on the top left.</item>
+        <item>2. Click on the icon with the text: account details.</item>
+        <item>3. Click on the text: \"Change password\".</item>
+        <item>4. Fill in the blanks and click on \"Change password\".</item>
+    </string-array>
+
+    <string-array name="createAccountHelp">
+        <item>1. In the login page click on the text: \"No account yet? Create one.\"</item>
+        <item>2. In the registration page, fill in the fields and click on the \"Register\" button.</item>
+    </string-array>
+    <string-array name="fpassHelp">
+        <item>1. Go to the login page.</item>
+        <item>2. Click on \"Forgot password?\".</item>
+    </string-array>
+    <string-array name="descHelp">
+        <item>1. You have 2 description options, you can identify them by this icon:</item>
+        <item>2. If you click on one of the description options, you will be redirected to a page that contains a list of the brands or the body cars.</item>
+    </string-array>
+    <string-array name="filterHelp">
+        <item>1. You have 2 filtering options, which can be identified by this icon:</item>
+        <item>2. If you click on one of them, you will be redirected to a page that contains a quiz to filter the cars or the body cars.</item>
+    </string-array>
+    <string-array name="compareHelp">
+        <item>1. The comparison option can be identified by this icon:</item>
+        <item>2. When you click on it, you will be redirected to a page that will tell you to choose the 2 body cars you want to compare.</item>
+    </string-array>
+    <string name="intrebare1Masina">Choose the body car for which you want to know the models:</string>
+    <string-array name="intrebariMasini">
+        <item>What is your budget?</item>
+        <item>What type of fuel do you prefer?</item>
+    </string-array>
+
+    <string-array name="bugetAchizitie">
+        <item>less than 5000€</item>
+        <item>between 5000€ and 10000€</item>
+        <item>more than 10000€</item>
+        <item>new</item>
+    </string-array>
+    <string-array name="combustibil">
+        <item>benzine</item>
+        <item>diesel</item>
+        <item>electric</item>
+        <item>hybrid</item>
+    </string-array>
+
+    <!-- detalii masini-->
+    <string name="caroserieDetalii">Body car</string>
+    <string name="marcaDetalii">Brand</string>
+    <string name="anulDetalii">Year</string>
+    <string name="caiPutereDetalii">Horse power</string>
+    <string name="capCilindricaDetalii">Cilindrical capacity</string>
+    <string name="alimentareaDetalii">Combustible</string>
+    <string name="intervalPretDetalii">Price range</string>
+    <string name="saveDetalii">Save this car</string>
+    <string name="deleteDetalii">Remove this car</string>
+    <string name="modeleTxt">Saved models</string>
+
+    <string name="chartPopularitate">Body car popularity</string>
+    <string name="chartComparatie">Body  cars percentages</string>
+
+    <!--- informatii caroserii-->
+    <string-array name="descrieri">
+        <item name="compact">• The compact car, identified as a small car in Europe, falls between medium and subcompact vehicles. Usually, Honda Civic, Hyundai Elantra, Chrysler PT Cruiser and Audi A3 fall into the compact category. The compact can be a hatchback model, with two and four doors and a compact sport. Generally, they are equipped from the factory with a four-cylinder engine.
+             \n • The compact has been available in some form since the car\'s inception, but as cars grew, the compact officially debuted with the 1950\'s Nash Rambler, which sat on a 254-centimeter wheelbase.
+             \n • Small or compact vehicles have between 100-109 cubic meters of combined passenger and freight volume and have a length between 409 and 475 centimeters.</item>
+        <item name="sedan">• The sedan is a type of car with a closed body, with 2 or 4 doors, with 2 side windows on each side, arranged for four or more passengers.
+             \n • Its main purpose is to transport people on normal roads.
+             \n • The sedan is one of the most common types of body cars nowadays.</item>
+        <item name="hatchback">• It has 2 or 4 doors.
+\n • This type of body is also called a two-volume body, one of the volumes being the engine compartment and the second passenger compartment fused with the trunk.
+\n • As a rule, the rear hatch has hinges at the upper end, and the backrests of the rear seat row can be folded down to increase cargo space.</item>
+        <item name="coupe">• It has 2 doors, but newer coupe models also have 4.
+\n • They are generally provided for two people, the back seats being more uncomfortable for adults, but for certain situations they are perfect for children.
+\n • The term coupe comes from the French translation of \"cut\".</item>
+        <item name="stationWagon">• It has 4 doors, it is a type of body suitable for holidays.
+\n • Recommended for families with 2 children.
+\n • They are derived from the sedan body type.
+\n • Provides a large luggage storage space by folding the rear seats.</item>
+        <item name="roadster">• It has 2 doors, it is a spider body.
+\n • The number of seats is 2, one for the driver and one for the other passenger.
+\n • No roof.</item>
+        <item name="cabriolet">• Also called drop-head coupe.
+\n • It can be turned into an open car thanks to the retractable roof.
+\n • The number of doors is 2, with 4 seats available for passengers by folding the front seats.
+\n • Can be used in both urban and non-urban environments.</item>
+        <item name="muscleCar">• In the United States they were called Supercars.
+\n • It can be turned into an open car thanks to the retractable roof.
+\n • The number of doors is 2, with seats available for both the driver and 2 more passengers, 3 if convenience is not taken into account.
+\n • Can be used in both urban and non-urban environments.</item>
+        <item name="sportCar">• Sport body car born in Europe.
+\n • Due to its design it offers dynamic performance.
+\n • The number of doors is 2, normally these cars are for 2 people, but newer models have 2 more seats with less comfort.
+\n • Can be used in both urban and non-urban environments.</item>
+        <item name="suv">• SUV comes from sport utility vehicle.
+\n • Specific for families with 2 children.
+\n • The number of doors is 4, with 5 seats available.
+\n • They are specific to the extra-urban environment.</item>
+        <item name = "suvCompact"> • SUV comes from the sport utility vehicle.
+\n • Compact SUV is a smaller SUV body type.
+\n • Specific for families with 2 children.
+\n • The number of doors is 2 or 4, with 5 seats available.
+\n • Smaller luggage storage space than a normal SUV.
+\n • They are specific to the extra-urban environment. </item>
+        <item name = "pickup"> • Usually a derivation of a sedan or SUV.
+\n • Large storage space for materials or luggage in the back, without a roof.
+\n • The number of doors is 2 or 4, with 5 seats available.
+\n • Specific to the extra-urban environment and construction companies that require storage of certain materials. </item>
+        <item name = "miniVan"> • The number of rows for passengers is 3.
+\n • Large storage space for materials or luggage.
+\n • The number of available seats is 7-8.
+\n • Specific to the extra-urban environment, but also urban for larger families. </item>
+        <item name = "van"> • It is usually used to transport people or goods.
+\n • In most cases it has no windows in the back.
+\n • Large storage space for materials or luggage.
+\n • The number of seats available is 2-3 for vans used for the purpose of transporting goods or more than 8 for the purpose of transporting persons.
+\n • Specific to the extra-urban environment. </item>
+    </string-array>
+    <string-array name="pro">
+        <item name = "compact"> • High autonomy compared to larger vehicles;
+\n • It often costs less than larger vehicles.
+\n • Easier to park and handle.
+\n • Provides a fun and different driving experience.
+\n • Popularity for resale.
+\n • Sometimes they are more reliable because they are more basic and are used especially worldwide.</item>
+        <item name = "sedan"> • Sedans are more stable at high speeds.
+\n • Provides more privacy (small windows, not visible inside).
+\n • Large trunk (compared to the hatchback).
+\n • It has 4 doors, so each passenger can enter directly into his seat.
+</item>
+        <item name = "hatchback"> • Suitable for the city.
+\n • Can be easily maneuvered in parking lots, returns.
+\n • Easy to drive for beginners.
+\n • Provides better autonomy.
+</item>
+        <item name = "coupe"> • It is suitable for the city.
+\n • It is easy to drive for any type of driver, in terms of experience.
+\n • Part of the roof is retractable.
+</item>
+        <item name = "stationWagon"> • Suitable for holidays.
+\n • It is easy to drive for both experienced and advanced drivers.
+\n • Large luggage storage space.
+\n • Fuel economy due to low weight.
+</item>
+        <item name = "roadster"> • Freedom.
+\n • Better visibility than normal cars due to the lack of the top and sides of the road.
+</item>
+        <item name = "cabriolet"> • Freedom, but also the possibility to close the roof in case of rain.
+\n • Better visibility than normal cars due to the possibility of retracting the roof.
+\n • Can be used in any environment.
+</item>
+        <item name = "muscleCar"> • The freedom offered by the retractable roof.
+\n • Can be used in any environment.
+</item>
+        <item name = "sportCar"> • Dynamic performance.
+\n • Can be used in any environment.
+</item>
+        <item name = "suv"> • Suitable for holidays, but also for companies.
+\n • Large luggage storage space.
+\n • 4x4 traction, more precisely for the Off-road environment.
+</item>
+        <item name = "suvCompact"> • High seating position.
+\n • High safety in the event of an accident due to the size of the body.
+\n • 4x4 traction, more precisely for the Off-road environment. </item>
+        <item name = "pickup"> • Off-road skills are better.
+\n • Large storage space for luggage or materials.
+\n • More power for towing and transport.
+\n • 4x4 traction, more precisely for the Off-road environment. </item>
+        <item name = "miniVan"> • Suitable for family holidays.
+\n • Large luggage storage space.
+\n • Many seats available.
+\n • High safety in the event of an accident due to the size of the body. </item>
+        <item name = "van"> • Suitable for passenger transport companies or construction companies.
+\n • Large storage space for luggage or materials.
+\n • The number of seats can be as large as desired.
+\n • High safety in the event of an accident due to the size of the body. </item>
+    </string-array>
+    <string-array name="contra">
+        <item name = "compact"> • Less power so you can get more time to reach higher speeds and it will be slower, climbing big hills and rough terrain.
+\n • It may not offer a trip as smooth as larger cars on long journeys.
+\n • May be more dangerous if involved in car accidents.
+\n • Less space for drivers, passengers and freight.
+\n • You may be aware of how you look in a small vehicle, especially when larger cars pass by you.
+\n • Not suitable as a family or holiday car </item>
+        <item name = "sedan"> • Not recommended for travel.
+\n • Small windows.
+\n • It has a large trunk compared to the hatchback, but compared to an SUV it is quite small.
+</item>
+        <item name = "hatchback"> • Small trunk.
+\n • Not suitable for more than 2 people.
+\n • The trunk and passenger seat are together, providing an easy possibility to steal just by breaking a window.
+</item>
+        <item name = "coupe"> • Not suitable for families.
+\n • By the time the sun disappears, the unfolding roof is no longer so practical.
+</item>
+        <item name = "stationWagon"> • Not suitable for novice drivers.
+\n • The rectangular shape is less dynamic.
+</item>
+        <item name = "roadster"> • Not suitable for rainy days.
+\n • There are seats only for the driver and another passenger.
+\n • Low security when it comes to storing luggage in this car.
+\n • The inside of the machine will get dirty much faster.
+</item>
+        <item name = "cabriolet"> • Not suitable for families.
+\n • Small luggage storage space.
+</item>
+        <item name = "muscleCar"> • Not suitable for families.
+\n • Small luggage storage space.
+</item>
+        <item name = "sportCar"> • Not suitable for families.
+\n • Small luggage storage space.
+</item>
+        <item name = "suv"> • Not suitable for beginners.
+\n • Hard to handle in tight spaces or cities.
+</item>
+        <item name = "suvCompact"> • Not suitable for beginners.
+\n • Smaller luggage storage space than a normal SUV.
+         </item>
+        <item name = "pickup"> • Not suitable for beginners.
+\n • Hard to handle in tight spaces or cities.
+\n • Few models to choose from. </item>
+        <item name = "miniVan"> • Not suitable for beginners.
+\n • Hard to handle in tight spaces or cities.
+\n • They are not as effective in snow or off-road areas.
+</item>
+        <item name = "van"> • Not suitable for beginners.
+\n • Hard to handle in tight spaces or cities.
+\n • Low pulling power. </item>
+    </string-array>
+
+    <string-array name="istoricMarci">
+        <item name="volkswagen">- was founded in 1937;
+             \n\n- founders: Adolf Hitler, Karl Benz, Ferdinand Porsche and Robert Ley in 1938; Ivan Hirst and Heinz Nordhoff in 1948;
+             \n\n- headquarters: Wolfsburg, Germany;
+             \n\n- the company\'s motto is: \"For the love of the automobile\";
+             \n\n- belongs to the Volkswagen Group concern.</item>
+        <item name="skoda">- was founded in 1895 as \"Laurin &amp; Klement\"
+             \n\n- founders: Václav Laurin and Václav Klement;
+             \n\n- headquarters: Mladá Boleslav, Czech Republic;
+             \n\n- The company\'s slogan is: \"Simply Clever\";
+             \n\n- since 1991 it belongs to the Volkswagen Group concern.</item>
+        <item name="audi">- was founded in 1909 in Zwickau;
+             \n\n- founders: August Horch;
+             \n\n- headquarters: Ingolstadt, Germany;
+             \n\n- the company\'s slogan is: \"Progress through Technology\";
+             \n\n- belongs to the Volkswagen Group concern.</item>
+        <item name="seat">- was founded on May 9, 1950;
+             \n\n- founders: National Institute of Industry;
+             \n\n- headquarters: Martorell, Spain;
+             \n\n- the company\'s slogan is: \"Auto emocion\";
+             \n\n- belongs to the Volkswagen Group concern.</item>
+        <item name="peugeot">- was founded in 1810;
+             \n\n- headquarters: Poissy, France;
+             \n\n- The company\'s slogan is: \"Peugeot. Designed to please\";
+             \n\n- belongs to the PSA Peugeot Citroën group.</item>
+        <item name="citroen">- was founded in 1919;
+             \n\n- founder: André Citroën;
+             \n\n- headquarters: Paris, France;
+             \n\n- The company\'s slogan is: \"Inspired by you\";
+             \n\n- belongs to the PSA Peugeot Citroën group.</item>
+        <item name="opel">- was founded on January 21, 1862;
+             \n\n- Founder: Adam Opel;
+             \n\n- headquarters: Rüsselsheim, Germany;
+             \n\n- the company\'s slogan is: \"The future belongs to everyone\";
+             \n\n- belongs to the PSA Peugeot Citroën group.</item>
+        <item name="renault">- was founded on December 24, 1898;
+             \n\n- founders: Louis Renault, Marcel Renault, Fernand Renault;
+             \n\n- headquarters: Tokyo, Japan;
+             \n\n- the company\'s slogan is: \"Car Creator\";
+             \n\n- belongs to the Renault group.</item>
+        <item name="dacia">- was founded in 1966;
+             \n\n- headquarters: Mioveni, Romania;
+             \n\n- belongs to the Renault group.</item>
+        <item name="hyundai">- was founded on December 29, 1967;
+             \n\n- founder: Chung Ju-yung;
+             \n\n- headquarters: Seoul, South Korea;
+             \n\n- the company\'s slogan is: \"New thinking, new possibilities\";
+             \n\n- It belongs to the Hyundai Motor group.</item>
+        <item name="kia">- was founded in 1944;
+             \n\n- headquarters: Seoul, South Korea;
+             \n\n- the company\'s slogan is: \"The inspiring movement\";
+             \n\n- It belongs to the Hyundai Motor group.</item>
+        <item name="bmw">- was founded on March 7, 1916;
+             \n\n- founders: Franz Josef Popp, Karl Rapp, Camillo Castiglioni;
+             \n\n- headquarters: Munich, Germany;
+             \n\n- the company\'s slogan is: \"The pleasure of driving\";</item>
+        <item name="fiat">- was founded on July 11, 1899;
+             \n\n- founder: Giovanni Agnelli;
+             \n\n- headquarters: Turin, Italy;
+             \n\n- owner: Fiat Chrysler Automobiles.</item>
+        <item name="toyota">- was founded in 1937;
+             \n\n- founder: Kiichiro Toyoda;
+             \n\n- headquarters: Toyota, Japan;
+             \n\n- the company\'s slogan is: \"Going forward\";
+             \n\n- owner: Toyota Motor Corporation.</item>
+        <item name="mercedes">- was founded in 1881;
+             \n\n- founders: Gottlieb Daimler, Karl Benz;
+             \n\n- is a german brand;
+             \n\n- the company\'s slogan is: \"The best or nothing\";
+             \n\n- owner: DaimlerChrysler AG.</item>
+        <item name="ford">- was founded on June 17, 1903;
+             \n\n- founder: Henry Ford;
+             \n\n- headquarters: Dearborn, USA;
+             \n\n- the company\'s slogan is: \"Go ahead\";
+             \n\n- owner: Ford Motor Company.</item>
+        <item name="suzuki">- was founded in 1909;
+             \n\n- founder: Michio Suzuki;
+             \n\n- headquarters: Hamamatsu, Shizuoka, Japan;
+             \n\n- the company\'s slogan is: \"Lifestyle\";
+             \n\n- Owner: Suzuki Motor Corporation.</item>
+        <item name="mazda">- was founded in 1909;
+             \n\n- founder: Michio Suzuki;
+             \n\n- headquarters: Hamamatsu, Shizuoka, Japan;
+             \n\n- the company\'s slogan is: \"Lifestyle\";
+             \n\n- owner: Suzuki Motor Corporation.</item>
+        <item name="nissan">- was founded on December 26, 1933;
+             \n\n- founders: Masujiro Hashimoto, Kenjiro Den, Rokuro Aoyama, Meitaro Takeuchi, Yoshisuke Aikawa, William R. Gorham;
+             \n\n- headquarters: Yokohama, Japan;
+             \n\n- the company\'s slogan is: \"Innovation for all\";
+             \n\n- It belongs to the Nissan group.</item>
+        <item name="cooper">- was founded in 1959;
+             \n\n- founder: BMW;
+             \n\n- headquarters: Cowley, Oxford, England;
+             \n\n- is a sports city car;</item>
+        <item name="volvo">- was founded in 1927;
+             \n\n- founder: SKF;
+             \n\n- headquarters: Gothenburg, Sweden;
+             \n\n- the company\'s slogan is: \"For life\";
+             \n\n- belongs to the Chinese group Geely.</item>
+        <item name="jaguar">- was founded on September 11, 1922 as Swallow Sidecar Company;
+             \n\n- the name was changed to Jaguar in 1945;
+             \n\n- founders: William Lyons and William Walmsley;
+             \n\n- headquarters: Coventry, United Kingdom;
+             \n\n- owned by: Tata Motors Ltd.</item>
+        <item name="alfa">- was founded in 1910;
+             \n\n- founder: Cavalier Ugo Stella;
+             \n\n- headquarters: the Province of Turin;
+             \n\n- the company\'s slogan is: \"The mechanics of emotion.\";
+             \n\n- owner: Fiat Group Automobiles S.p.A.</item>
+        <item name="infiniti">- was founded in 1989;
+              \n\n- headquarters: Hong Kong;
+              \n\n- the company\'s slogan is: \"Empower the drive\";
+              \n\n- belongs to the Renault-Nissan concern.</item>
+        <item name="chevrolet">- was founded in 1911;
+             \n\n- founders: Arthur Chevrolet, Louis Chevrolet, William C. Durant;
+             \n\n- headquarters: Detroit, Michigan, U.S.;
+             \n\n- The company\'s slogan is: \"Find new roads.\";
+             \n\n- owner: General Motors.</item>
+        <item name="porsche">- was founded in 1948;
+             \n\n- founder: Ferdinand Porsche;
+             \n\n- headquarters: Stuttgart, Baden-Württemberg;
+             \n\n- The company\'s slogan is: \ "There is no substitute. \".</item>
+        <item name="mitsubishi">- was founded in 1917;
+             \n\n- Founder: Iwasaki Yatarō;
+             \n\n- headquarters: Tokyo, Japan;
+             \n\n- The company\'s slogan is: \"Drive your ambition\".</item>
+        <item name="jeep">- was founded in 1940;
+             \n\n- founder: Chrysler Group LLC;
+             \n\n- headquarters: Toledo, Ohio, USA;
+             \n\n- The company\'s slogan is: \"There\'s only one\".</item>
+        <item name="landrover">- was founded in 1948;
+             \n\n- founder: Jaguar Land Rover;
+             \n\n- headquarters: Coventry, Gaydon, Solihull, United Kingdom;
+             \n\n- The company\'s slogan is: \"Above &amp; beyond\".
+             \n\n- owner: Tata Motors.</item>
+        <item name="subaru">- was founded in 1950;
+             \n\n- founder: Fuji Heavy Industries Ltd;
+             \n\n- headquarters: Ebisu, Japan;
+             \n\n- The company\'s slogan is: \"Think. Feel. Drive.\".</item>
+        <item name="dodgeram">- was founded in 2010;
+             \n\n- founder: Stellantis;
+             \n\n- headquarters: Auburn Hills, Michigan;
+             \n\n- The company\'s slogan is: \"Guts. Glory. Ram.\".</item>
+        <item name="tesla">- was founded in 2003;
+              \n\n- founder: Martin Eberhard, Marc Tarpenning;
+              \n\n- headquarters: Palo Alto, California, United States;
+              \n\n- The company\'s slogan is: \"To accelerate the advent of sustainable transport and electric technology.\".
+              \n\n- owners: Elon Musk, The Vanguard Group, BlackRock.</item>
+    </string-array>
+
+    <string name="welcome">Welcome to your car assistant!!!</string>
+    <string name="loginPage">Start</string>
+
+    <string name="details">Details</string>
+    <string name="forgotPassword">Forgot password?</string>
+    <string name="caroseriiTextChart">Body cars</string>
+
+    <string-array name="glume">
+        <item>Talk at a taxi station:
+    \n– What are your prices?
+    \n– 3 dollars for starting and 1.5 dollars for the kilometer.
+    \n– Go ahead, I\'ll take it on the go…</item>
+        <item>The policeman asks the hospitalized driver:
+    \n- How did the accident happen?
+    \n- The driver of the car in front of me signaled a change of direction to the left.
+    \n- And?
+    \n- And, contrary to all my predictions, he turned left…</item>
+        <item>A driver, wanting to protect his car from thieves and not having money for an alarm, leaves a note on the windshield of the car:
+    \n- \'Radio - defective, petrol - missing, engine - missing components \'.
+    \n- In the morning he finds his car on the logs and another note that read: \'SO, it doesn\'t need wheels anymore! \'</item>
+        <item>The traffic officer stops a car driven by an old lady:
+    \n– Ma\'am! It is not good to drive at 20 km/h, because you are obstructing traffic!
+    \n– But I only respected the speed limit of 21 km/h.
+    \n– Ma\'am! That indicator does not show the speed limit, but the fact that you are driving on the National Road no. 21.
+    \n– Really? Thank you very much… The agent notices that the passengers are sitting in a grave silence in the car.
+    \n– Ma\'am! Why are your passengers so frozen?
+    \n– Oh, they are fine… They still haven\'t recovered since I turned off National Road no. 195.</item>
+        <item>What is written on page 39 of the Logan manual?
+    \n- R: The bus schedule.</item>
+        <item>Talk at Dacia:
+    \n– What should be changed for our cars to comply with international norms?
+    \n– The international norms.</item>
+        <item>A driver is stopped by a police officer. The driver got out of the car, stunned, and asked the policeman:
+    \n- Was I going too fast?
+    \n- No, you were flying too low!</item>
+        <item>Two friends were talking:
+    \n- How was the car exam?
+    \n- I don\'t know, when I left the hospital, the examiner was still unconscious.</item>
+        <item>A guy in a taxi pats the driver on the shoulder to ask him something. The driver shouts, loses control of the car, barely manages to avoid a bus coming from the opposite direction, enters the sidewalk, and finally stops a few inches in front of a shop window! For a few seconds it\'s total silence, then the driver shouts:
+    \n- \"Never do that again!\" You scared me to death! The passenger remains masked and apologizes as best as he can:
+    \n- \"I couldn\'t know you\'ll be so scared of a touch on your shoulder?\"
+     \"It\'s my fault, too,\" the driver said more calmly. Today was my first day as a taxi driver. For the last 25 years I have been the driver of a funeral home!</item>
+        <item>The cop wants to put the ampoule to a driver.
+    \n- I can\'t blow, I have asthma.
+    \n- Then let\'s take your blood.
+    \n- I can\'t, I\'m hemophilic.
+    \n- Then go on the white band.
+    \n- I can\'t, I\'m drunk.</item>
+        <item>A car mechanic reaches the sky and complains to Saint Peter:
+    \n- How can I die at 38?
+    \n- Look, we\'ve collected all the workmanship hours from the receipts you issued and it turns out you\'re 90 years old.</item>
+    </string-array>
+
+    <string name="awesome">Awesome</string>
+    <string name="nice">Okay</string>
+    <string name="horrible">So and so</string>
+    <string name="glume">Jokes</string>
+
+    <!-- forgot password -->
+    <string name="existentaGmail">Enter the email to verify the existence of the account</string>
+    <string name="corectitudineUsername">Enter the username to verify your identity</string>
+
+    <string name="existEmail">Email exists</string>
+    <string name="existNotEmail">There is no account with this email address</string>
+    <string name="corectUsername">The username is correct</string>
+    <string name="notCorectUsername">The username is not correct</string>
+    <string name="fillParolaNoua">Fill in the new password field</string>
+    <string name="fillConfirmaParolaNoua">Fill in the field to confirm the new password</string>
+</resources>
